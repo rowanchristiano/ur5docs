@@ -2,5 +2,6 @@
 
 > Condition Monitoring and Predictive Maintainence Solution
 
-[Get Started](#main)
-
+[Get Started](/?id=main)
+[Dashboard Navigation](/dashboardnav.md)
+[]
