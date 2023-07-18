@@ -1,19 +1,36 @@
 # Dashboard Navigation
 The dashboard consists of the following pages:
-- [Home](/?id=home) (Dashboard/Condition Monitoring)
-- [History](/?id=history) (Data Collection/Data Analysis)
-- [Logs](/?id=logs) (Predictive Maintenance)
-- [Anomalies](/?id=anomalies) (Machine Learning/Predictive Maintenance)
+- [Home](/dashboardnav?id=home) (Dashboard/Condition Monitoring)
+- [History](/dashboardnav?id=history) (Data Collection/Data Analysis)
+- [Logs](/dashboardnav?id=logs) (Predictive Maintenance)
+- [Anomalies](/dashboardnav?id=anomalies) (Machine Learning/Predictive Maintenance)
+
+The `Navigation Bar (Navbar)` is used to navigate through the pages
+There are also different components that appear based on the active page
+- Toggle <i class="fa-solid fa-toggle-on fa-xl"></i><br>
+  (Appears in `Home`)
+- Status
+  (Appears in `Home` when the **toggle** is **on**)
+- Configuration <i class="fa-solid fa-sliders fa-xl"></i><br>
+  (Appears in `Home` when the **toggle** is **off**)
 
 ## Home
-[![](/img/home/home.jpg)](/img/home/home.jpg)
+[![](/img/home/home.jpg)](https://imgur.com/a/6idnqeU)
 
+In the Home page, there is a toggle <i class="fa-solid fa-toggle-on fa-2xl"></i> on the `Navbar`   
+This changes between two modes, `Realtime` and `Simulation`
+
+
+### Realtime
+
+### Simulation
 
 ## History
-![logo](/img/history/history.jpg)
+[![](/img/history/history.jpg)](https://imgur.com/gsfYktp)
+
 
 ## Logs
-![logo](/img/logs/logs.jpg)
+[![](/img/logs/logs.jpg)](https://imgur.com/H8Qvv6k)
 
 ## Anomalies
-![logo](/img/anomalies/anomalies.jpg)
+[![](/img/anomalies/anomalies.jpg)](https://imgur.com/yODI34R)
