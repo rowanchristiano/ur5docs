@@ -273,7 +273,21 @@ app.post("/threshold/:joint", (req, res) => {
 Before creating a Digital Ocean account, a `Github` account with <a href='https://education.github.com/pack'>`Github Student Developer Pack`</a> is needed to create a Digital Ocean account with $200 Credits that can be used to create the database.
 - Verify using Singapore Polytechnic Admin Card and ichat email
 
-
+### Creating Database
+After Creating DigitalOcean account and adding payment method,
+- Click on `Deploy a database`
+![DigitalOceanHome](/img/DigitalOceanHome.jpg)
+- Choose `Singapore` 
+  ![](/img/DatabaseCountry.jpg)
+- Choose `MySQL`
+  ![](/img/DatabaseType.jpg)
+- Use the following configuration
+![](<WhatsApp Image 2023-10-13 at 16.19.24_fe010b4a.jpg>)
+![Alt text](<WhatsApp Image 2023-10-13 at 16.19.48_a27f18b8.jpg>)
+![Alt text](<WhatsApp Image 2023-10-13 at 16.21.54_1cd490f0.jpg>)
+Click on `Create Database Cluster`
+  Wait for database to finish setting up
+Install <a href='https://dev.mysql.com/downloads/workbench/'>`MySQLWorkbench`</a>
 ## Framework and Libraries
 
 `React.js` is used as the javascript **framework** for the Dashboard.
