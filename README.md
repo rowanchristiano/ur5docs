@@ -268,6 +268,12 @@ app.post("/threshold/:joint", (req, res) => {
 
 </details>
 
+## Digital Ocean
+### Prerequisites - Github Student
+Before creating a Digital Ocean account, a `Github` account with <a href='https://education.github.com/pack'>`Github Student Developer Pack`</a> is needed to create a Digital Ocean account with $200 Credits that can be used to create the database.
+- Verify using Singapore Polytechnic Admin Card and ichat email
+
+
 ## Framework and Libraries
 
 `React.js` is used as the javascript **framework** for the Dashboard.
