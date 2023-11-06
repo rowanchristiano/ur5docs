@@ -1,12 +1,12 @@
 # Dashboard Navigation
 The dashboard consists of the following pages:
-- [Home](/dashboardnav?id=home) (Dashboard/Condition Monitoring)
+- [Home](/dashboardnav?id=home) (Condition Monitoring/Predictive Maintenance)
 - [History](/dashboardnav?id=history) (Data Collection/Data Analysis)
 - [Logs](/dashboardnav?id=logs) (Predictive Maintenance)
 - [Anomalies](/dashboardnav?id=anomalies) (Machine Learning/Predictive Maintenance)
 
 The `Navigation Bar (Navbar)` is used to navigate through the pages
-There are also different components that appear based on the active page
+There are also different buttons that appear based on the active page
 - Toggle <i class="fa-solid fa-toggle-on fa-xl"></i><br>
   (Appears in `Home`)
 - Status

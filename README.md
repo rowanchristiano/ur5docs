@@ -51,6 +51,13 @@ On your own computer:
 
 > UR5 Robot is now connected to the computer and real-time data is ready to be monitored
 
+## Connecting to TDC-E (For Node-RED configuration)
+
+- Connect PC to TDC-E via ethernet blue cable (Should be on the TDC-E)
+- Change your PC IP address to 192.168.1.x
+- Go to 192.168.1.100:9000 on the browser
+- Configure Node-RED as needed
+
 ## Database
 
 ### MySQL
