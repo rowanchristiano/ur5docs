@@ -17,13 +17,19 @@ and how they are implemented in the Dashboard.
 
 `Node-RED` is used to connect to the UR5 Robot via TCP/IP
 
+### Telematic Data Collector (TDC-E)
+- `TDC-E` is connected to a 24V DC power supply and then connected to the `UR5` via Eth1 port (refer to image, port '4')
+  - ![TDC-E front](/IMG/TDC-E.png 'TDC-E Front')
+- `TDC-E` has to be configured to be connected to WLAN 
+- Starting the 
+
+### LAN
+
 - `UR5 Robot` is firstly connected to a `ethernet switch` which is connected to the `MOXA Client` via an ethernet cable
-  ![logo](/img/switchclientconnection.jpg)
+  ![logo](/img/switchclientconnection.jpg 'Connection Diagram')
 - `MOXA Client` then connects to `MOXA Access Point` wirelessly
 
 On your own computer:
-
-### Wireless
 
 - Connect to `MOXA Wi-Fi network`
 - Change Wi-Fi adapter IPv4 address to `192.168.0.xxx` (Anything but 7)
@@ -34,7 +40,7 @@ On your own computer:
 
   ?> Connect to ethernet port to have internet access while connected to MOXA
 
-### Wired
+#### Wired
 
 - Connect the GREEN Ethernet Cable labelled `X000 HMI PLC` to your computer \(Initially connected to the switch as seen in the above image)
 - Change ethernet adapter IPv4 address to `192.168.0.xxx` (Anything but 7)
@@ -269,6 +275,26 @@ app.post("/threshold/:joint", (req, res) => {
 
 </details>
 
+## Digital Ocean
+### Prerequisites - Github Student
+Before creating a Digital Ocean account, a `Github` account with <a href='https://education.github.com/pack'>`Github Student Developer Pack`</a> is needed to create a Digital Ocean account with $200 Credits that can be used to create the database.
+- Verify using Singapore Polytechnic Admin Card and ichat email
+
+### Creating Database
+After Creating DigitalOcean account and adding payment method,
+- Click on `Deploy a database`
+![DigitalOceanHome](/img/DigitalOceanHome.jpg)
+- Choose `Singapore` 
+  ![](/img/DatabaseCountry.jpg)
+- Choose `MySQL`
+  ![](/img/DatabaseType.jpg)
+- Use the following configuration
+![](<WhatsApp Image 2023-10-13 at 16.19.24_fe010b4a.jpg>)
+![Alt text](<WhatsApp Image 2023-10-13 at 16.19.48_a27f18b8.jpg>)
+![Alt text](<WhatsApp Image 2023-10-13 at 16.21.54_1cd490f0.jpg>)
+Click on `Create Database Cluster`
+  Wait for database to finish setting up
+Install <a href='https://dev.mysql.com/downloads/workbench/'>`MySQLWorkbench`</a>
 ## Framework and Libraries
 
 `React.js` is used as the javascript **framework** for the Dashboard.
@@ -291,4 +317,3 @@ The following libraries are used:
 - `react-toastify` for toast notifications
   - `useNotificationCenter` addon for notification center
 - `styled-components` for component styling
-
